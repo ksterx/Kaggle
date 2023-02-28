@@ -14,8 +14,8 @@ PASSENGER_ID_FROM = 892
 
 
 def preprocess():
-    train = pd.read_csv("train.csv")
-    test = pd.read_csv("test.csv")
+    train = pd.read_csv("data/train.csv")
+    test = pd.read_csv("data/test.csv")
 
     # Drop unnecessary columns
     atts = ["Name", "PassengerId", "Cabin", "Ticket"]
