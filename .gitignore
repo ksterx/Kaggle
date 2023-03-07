@@ -315,3 +315,4 @@ results/
 *.code-workspace
 *.jupyterlab-workspace
 desktop-settings.json
+logs/
